@@ -7,15 +7,15 @@ function log3(val) {
  * @return {boolean}
  */
 var isPowerOfThree = function(n) {
-    if (n < 1) {
-            return false;
-    }
+        if (n < 1) {
+                return false;
+        }
 
-    while (n % 3 == 0) {
-        n /= 3;
-    }
+        while (n % 3 == 0) {
+            n /= 3;
+        }
 
-    return n == 1;  
+        return n == 1;  
 };
 
 console.log(isPowerOfThree(9));
