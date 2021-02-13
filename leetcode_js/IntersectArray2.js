@@ -7,11 +7,6 @@ var intersect = function(nums1, nums2) {
     myObj = {};
     result = [];
 
-    
-    if (nums1.length < nums2.length) {
-        nums1,nums2 = nums2,nums1
-    }
-    
     // Create hashmap of nums1
     for (let num of nums1) {
         if (myObj[num] > 0) {
@@ -31,7 +26,7 @@ var intersect = function(nums1, nums2) {
     }
 
     return result;
-};
+}
 
 // Tests
 console.log(intersect([2, 2], [1,2,2,1]));
