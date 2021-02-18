@@ -1,10 +1,9 @@
 class Testing():
-    def mihoy(self, listyboi):
+    def singleNum(self, nums):
         a = 0
-        for i in listyboi:
+        for i in nums:
             a ^= i
         return a
 
 example = Testing()
-
-print(example.mihoy([1,1,2]))
+print(example.singleNum([2,2,1]))
