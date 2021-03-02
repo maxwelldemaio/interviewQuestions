@@ -6,3 +6,7 @@ class Solution:
             # Shift bits to the right until we reach the end
             n >>= 1
         return weight
+
+# Tests
+example = Solution()
+print(example.hammingWeight(3))
