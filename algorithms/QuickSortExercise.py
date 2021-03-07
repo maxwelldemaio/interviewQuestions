@@ -5,33 +5,31 @@ def swap(a, b, arr):
         arr[b] = tmp
 
 
-def partition(elements, start, pivot_index):
+def partition(elements, start, end):
     """Lumuto partitioning scheme"""
-    pivot = elements[pivot_index]
+    pivot = elements[end]
+    p_index = start
 
     # Move until we find a number > pivot
-    while elements[start] < pivot:
-        while start < len(elements) and elements[start] < pivot:
-            start += 1
-        # Set i equal to the starter pivot and look for number < pivot
-        i = start
-        while i < len(elements) and elements[i] > pivot:
-            i += 1
-        if start < i:
-            # swap start/end
-            swap(start, i, elements)
-    # Return where we swapped pivot to (if so)
-    if start == pivot_index:
-        return start - 1
-    else:
-        return start
+    for i in range(start, end):
+        if elements[i] <= pivot:
+            swap(i, p_index, elements)
+            p_index += 1
 
+    swap(p_index, end, elements)
 
-def quick_sort(elements, start, pivot_index):
-    if start < pivot_index:
-        partition_index = partition(elements, start, pivot_index)
+    return p_index
+    
+
+def quick_sort(elements, start, end):
+    if len(elements) == 1:
+        return
+    if start < end:
+        partition_index = partition(elements, start, end)
         # Re-run algo with new pivot
         quick_sort(elements, 0, partition_index - 1)
+        quick_sort(elements, partition_index + 1, end)
+
 
 if __name__ == "__main__":
     elements = [11, 9, 29, 7, 2, 15, 28]
