@@ -123,7 +123,15 @@ public class Problem {
 		 * Given a string name, e.g. "Bob", return 
 		 * a greeting of the form "Hello Bob!".
 		 * */
-		
 		return "Hello " + name + "!";
 	}
+	
+	public String makeAbba(String a, String b) {
+		/* 
+		 * Given two strings, a and b, return the result of putting 
+		 * them together in the order abba, e.g. "Hi" and "Bye" returns "HiByeByeHi".
+		 * */
+		return a + b + b + a;
+	}
+
 }
