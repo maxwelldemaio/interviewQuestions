@@ -7,7 +7,11 @@ public class _Tester {
 		// Access them without creating a new instance of the object
 		
 		// Test cases
-		System.out.println(ReverseInteger.reverse(0));
+		int[] arr = {3,2,4};
+		int[] answer = TwoSum.getTwoSum(arr, 6);
+		for (int i = 0; i < answer.length; i++) {
+			System.out.println(answer[i]);
+		}
 	}
 
 }
