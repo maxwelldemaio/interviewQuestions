@@ -11,3 +11,4 @@ Hub for my coding solutions (Python/JS/Java)
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Java Solution](./leetcode_java/src/com/eta/ReverseInteger.java)|/|Easy|Math|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java Solution](./leetcode_java/src/com/eta/ReverseInteger.java), [Python Solution](./leetcode_py/TwoSum.py), and [JavaScript Solution](./leetcode_js/TwoSum.js)|/|Easy|Array and Hash Table|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Java Solution](./leetcode_java/src/com/eta/ToLowerCase.java)|/|Easy|String|
+|36|[Valid Sudoku]https://leetcode.com/problems/valid-sudoku/)|[Java Solution](./leetcode_java/src/com/eta/ValidSudoku.java)|/|Medium|Array, Hash Table, and Matrix|
