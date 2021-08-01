@@ -15,3 +15,4 @@ Hub for my coding solutions (Python/JS/Java)
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java Solution](./leetcode_java/src/com/eta/AddTwoNumbers.java.java)|/|Medium|Linked List, Math, and Recursion|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Java Solution](./leetcode_java/src/com/eta/FirstUniqueCharacter.java)|/|Easy|Hash Table, String, Queue, and Counting|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Java Solution](./leetcode_java/src/com/eta/MinSizeSubarraySum.java)|/|Medium|Array, Binary Sliding Window, and Prefix Sum|
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java Solution](./leetcode_java/src/com/eta/RemoveAdjDupInStr.java), [Python Solution](./leetcode_py/RemoveDuplicates.py)|/|Easy|Array and Two Pointers|
