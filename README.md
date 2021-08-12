@@ -24,5 +24,7 @@ Hub for my coding solutions (Python/JS/Java)
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java Solution](./leetcode_java/src/com/eta/ValidSudoku.java)|/|Medium|Array, Hash Table, and Matrix|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python Solution](./leetcode_py/ContainsDuplicate.py)|/|Easy|Array, Hash Table, and Sorting|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Python Solution](./leetcode_py/DeleteNthNode1.py)|/|Medium|Linked List and Two Pointers|
+|461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python Solution](./leetcode_py/HammingDistance.py)|/|Easy|Bit Manipulation|
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Python Solution](./leetcode_py/IntersectArray2.py)|/|Easy|Array, Hash Table, Two Pointers, Binary Search, and Sorting|
 
 
