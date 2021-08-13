@@ -24,6 +24,6 @@ public class _Tester {
 		node2.next = new ListNode1(6);
 		node2.next.next = new ListNode1(4);
 		
-		PalindromeLinkedList.isPalindrome(node1);
+		System.out.println(PalindromeLinkedList.isPalindrome(node1));
 	}
 }

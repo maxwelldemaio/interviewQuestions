@@ -17,23 +17,48 @@ class ListNode1 {
  }
 
 public class PalindromeLinkedList {
-	public static boolean isPalindrome(ListNode1 head) {
-		// make list
-		List<Integer> myList = new ArrayList<>();
-		
-		// iterate over the linked list
+	public static ListNode1 reversed(ListNode1 head) {
+		// Reverse linked list from given node
+		ListNode1 newHead = null;
 		while (head != null) {
-            System.out.println("ListNode value: " + head.val);
-            // add to list 
-            myList.add(head.val);
-            head = head.next;
-        }
+			ListNode1 temp = head.next;
+			head.next = newHead;
+			
+			newHead = head;
+			head = temp;
+		}
+		return newHead;
+	}
+	
+	public static boolean isPalindrome(ListNode1 head) {
+		if (head == null) {
+			return true;
+		}
 		
-		// Check if the array is a palindrome
-		System.out.println(myList);
-		int front = 0;
-		int back = myList.size() - 1;
+		// Two pointers to traverse
+		ListNode1 slow = head;
+		ListNode1 fast = head;
 		
-        return false;
+		// get slow  to the half way point
+		// we do this by going 2 nodes at a time with fast
+		while(fast.next != null && fast.next.next != null) {
+			fast = fast.next.next;
+			slow = slow.next;
+		}
+		
+		
+		ListNode1 secondHalfHead = reversed(slow.next);
+		ListNode1 firstHalfHead = head;
+		
+		while(secondHalfHead != null && firstHalfHead != null) {
+			// Compare the values (second half [reversed] and first half [normal])
+			if (secondHalfHead.val != firstHalfHead.val) {
+				return false;
+			}
+			secondHalfHead = secondHalfHead.next;
+			firstHalfHead = firstHalfHead.next;
+		}
+		
+		return true;
     }
 }
