@@ -1,27 +1,12 @@
 package com.eta;
 
-import java.util.ArrayList;
-import java.util.List;
-
-// test cases:
-
-// Definition for singly-linked list.
-class ListNode1 {
-     int val;
-     ListNode1 next;
-     
-     // constructors
-     ListNode1() {}
-     ListNode1(int val) { this.val = val; }
-     ListNode1(int val, ListNode1 next) { this.val = val; this.next = next; }
- }
 
 public class PalindromeLinkedList {
-	public static ListNode1 reversed(ListNode1 head) {
+	public ListNode reversed(ListNode head) {
 		// Reverse linked list from given node
-		ListNode1 newHead = null;
+		ListNode newHead = null;
 		while (head != null) {
-			ListNode1 temp = head.next;
+			ListNode temp = head.next;
 			head.next = newHead;
 			
 			newHead = head;
@@ -30,14 +15,14 @@ public class PalindromeLinkedList {
 		return newHead;
 	}
 	
-	public static boolean isPalindrome(ListNode1 head) {
+	public boolean isPalindrome(ListNode head) {
 		if (head == null) {
 			return true;
 		}
 		
 		// Two pointers to traverse
-		ListNode1 slow = head;
-		ListNode1 fast = head;
+		ListNode slow = head;
+		ListNode fast = head;
 		
 		// get slow  to the half way point
 		// we do this by going 2 nodes at a time with fast
@@ -47,8 +32,8 @@ public class PalindromeLinkedList {
 		}
 		
 		
-		ListNode1 secondHalfHead = reversed(slow.next);
-		ListNode1 firstHalfHead = head;
+		ListNode secondHalfHead = reversed(slow.next);
+		ListNode firstHalfHead = head;
 		
 		while(secondHalfHead != null && firstHalfHead != null) {
 			// Compare the values (second half [reversed] and first half [normal])

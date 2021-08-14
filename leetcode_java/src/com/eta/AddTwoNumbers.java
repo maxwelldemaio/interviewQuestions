@@ -1,37 +1,19 @@
 package com.eta;
 
-// Definition for singly-linked list.
-class ListNode {
-	int val;
-	ListNode next;
 
-	ListNode() {
-	}
-
-	ListNode(int val) {
-		this.val = val;
-	}
-
-	ListNode(int val, ListNode next) {
-		this.val = val;
-		this.next = next;
-	}
-}
+//ListNode node1 = new ListNode(2);
+//node1.next = new ListNode(4);
+//node1.next.next = new ListNode(3);
+//
+//ListNode node2 = new ListNode(5);
+//node2.next = new ListNode(6);
+//node2.next.next = new ListNode(4);
+//
+//addTwoNumbers(node1, node2);
 
 public class AddTwoNumbers {
-	public static void main(String[] args) {
-		ListNode node1 = new ListNode(2);
-		node1.next = new ListNode(4);
-		node1.next.next = new ListNode(3);
-		
-		ListNode node2 = new ListNode(5);
-		node2.next = new ListNode(6);
-		node2.next.next = new ListNode(4);
-		
-		addTwoNumbers(node1, node2);
-	}
 	
-	public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		// Start a new LL with default 0 value on first node
 		// Point to head node of LL
 		ListNode l3Head = new ListNode(0);

@@ -8,7 +8,7 @@ package com.eta;
  */
 
 public class RemoveAdjDupInStr {
-	public static String removeDuplicates(String s) {
+	public String removeDuplicates(String s) {
 		char[] stack = new char[s.length()];
 		int i = 0;
 		

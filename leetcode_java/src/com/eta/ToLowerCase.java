@@ -6,7 +6,7 @@ package com.eta;
 
 
 public class ToLowerCase {
-	public static String makeLower(String str) {
+	public String makeLower(String str) {
 		return str.toLowerCase();
 	}
 }

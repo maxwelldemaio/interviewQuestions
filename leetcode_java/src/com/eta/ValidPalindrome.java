@@ -1,7 +1,7 @@
 package com.eta;
 
 public class ValidPalindrome {
-	public static boolean isPalindrome(String s) {
+	public boolean isPalindrome(String s) {
 		// Initialize pointers
 		int left = 0;
 		int right = s.length() - 1;

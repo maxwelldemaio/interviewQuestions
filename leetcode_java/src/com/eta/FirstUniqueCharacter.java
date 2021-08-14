@@ -9,7 +9,7 @@ import java.util.Map;
  */
 
 public class FirstUniqueCharacter {
-	public static int firstUniqChar(String s) {
+	public int firstUniqChar(String s) {
 		Map<Character, Integer> freq = new HashMap<>();
 		
 		// Loop over string to generate frequency map

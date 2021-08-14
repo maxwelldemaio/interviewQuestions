@@ -9,7 +9,7 @@ package com.eta;
  */
 
 public class MinSizeSubarraySum {
-	public static int minSubArrayLen(int target, int[] nums) {
+	public int minSubArrayLen(int target, int[] nums) {
 		// Initialize 2 pointers to start
 		int result = Integer.MAX_VALUE;
 		int left = 0;

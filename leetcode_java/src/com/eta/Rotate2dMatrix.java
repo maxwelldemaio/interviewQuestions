@@ -5,7 +5,7 @@ package com.eta;
 //	Rotate2dMatrix.rotate(matrix);
 
 public class Rotate2dMatrix {
-	public static void rotate(int[][] matrix) {
+	public void rotate(int[][] matrix) {
 		Integer temp2 = 0;
 		
         for (int i = matrix.length - 1; i >= 0; i--) {

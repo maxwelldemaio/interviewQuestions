@@ -12,7 +12,7 @@ import java.util.Map;
  */
 
 public class TwoSum {
-	public static int[] getTwoSum(int[] nums, int target) {
+	public int[] getTwoSum(int[] nums, int target) {
 		// Create new hashmap to store complements and indexes
 		Map<Integer, Integer> num_map = new HashMap<>();
 		

@@ -1,7 +1,7 @@
 package com.eta;
 
 public class PalindromeNumber {
-	public static boolean isPalindrome(int x) {
+	public boolean isPalindrome(int x) {
 		if (x == 0) {
 			return true;
 		}

@@ -6,7 +6,7 @@ package com.eta;
  */
 
 public class ValidPalindromeII {
-	public static boolean isPalindrome(String s, int i, int j) {
+	public boolean isPalindrome(String s, int i, int j) {
 		while (i < j) {
 			if(s.charAt(i++) != s.charAt(j--)) {
 				return false;
@@ -15,7 +15,7 @@ public class ValidPalindromeII {
 		return true;
 	}
 	
-	public static boolean isPalindromeII(String s) {
+	public boolean isPalindromeII(String s) {
 		// Initialize pointers
 		int i = 0;
 		int j = s.length() - 1;

@@ -1,9 +1,8 @@
 package com.eta;
 
-import java.util.List;
 
 public class ThreeSum {
-	public static int findStartingIndex(int[] nums, int target) {
+	public int findStartingIndex(int[] nums, int target) {
 		int index = -1;
 
 		int start = 0;
@@ -25,7 +24,7 @@ public class ThreeSum {
 		return index;
 	}
 
-	public static int findEndingIndex(int[] nums, int target) {
+	public int findEndingIndex(int[] nums, int target) {
 		int index = -1;
 
 		int start = 0;
@@ -47,7 +46,7 @@ public class ThreeSum {
 		return index;
 	}
 
-	public static int[] searchRange(int[] nums, int target) {
+	public int[] searchRange(int[] nums, int target) {
 		int[] result = new int[2];
 		// Find first and second elements
 		result[0] = findStartingIndex(nums, target);

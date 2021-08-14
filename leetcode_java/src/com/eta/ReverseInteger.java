@@ -7,7 +7,7 @@ package com.eta;
  */
 
 public class ReverseInteger {
-	public static int reverse(int x) {
+	public int reverse(int x) {
         int rev = 0;
         int pop;
         

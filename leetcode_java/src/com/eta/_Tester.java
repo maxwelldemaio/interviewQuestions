@@ -1,12 +1,5 @@
 package com.eta;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
-
 public class _Tester {
 
 	public static void main(String[] args) {
@@ -15,15 +8,15 @@ public class _Tester {
 		
 		// Test cases
 		// create one linked list (true)
-		ListNode1 node1 = new ListNode1(2);
-		node1.next = new ListNode1(4);
-		node1.next.next = new ListNode1(2);
+		ListNode node1 = new ListNode(2);
+		node1.next = new ListNode(4);
+		node1.next.next = new ListNode(2);
 		
 		// create another linked list (false)
-		ListNode1 node2 = new ListNode1(5);
-		node2.next = new ListNode1(6);
-		node2.next.next = new ListNode1(4);
-		
-		System.out.println(PalindromeLinkedList.isPalindrome(node1));
+		ListNode node2 = new ListNode(5);
+		node2.next = new ListNode(6);
+		node2.next.next = new ListNode(4);
+		PalindromeLinkedList p = new PalindromeLinkedList();
+		System.out.println(p.isPalindrome(node1));
 	}
 }

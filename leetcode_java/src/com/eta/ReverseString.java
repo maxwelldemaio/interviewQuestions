@@ -1,7 +1,7 @@
 package com.eta;
 
 public class ReverseString {
-	public static void makeReverse(char[] s) {
+	public void makeReverse(char[] s) {
 		// Strings are immutable, char arrays are though!
 		// Note: if passed string, char[] chars = s.toCharArray();
 		
