@@ -28,5 +28,5 @@ Hub for my coding solutions (Python/JS/Java)
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Python Solution](./leetcode_py/IntersectArray2.py)|/|Easy|Array, Hash Table, Two Pointers, Binary Search, and Sorting|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Java Solution](./leetcode_java/src/com/eta/PalindromeLinkedList.java)|/|Easy|Linked List, Stack, Two Pointers, and Recursion|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java Solution](./leetcode_java/src/com/eta/ReverseLinkedList.java)|[📺](https://www.youtube.com/watch?v=r8NIEi6rwiE)|Easy|Linked List and Recursion|
-
+|8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[Java Solution](./leetcode_java/src/com/eta/StrToIntAtoi.java)|/|Medium|String|
 
