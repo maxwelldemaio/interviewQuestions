@@ -7,7 +7,7 @@ public class _Tester {
 		// Access them without creating a new instance of the object
 		
 		// Test cases
-		String test0 = "";
+		String test0 = " ";
 		String test1 = "42"; //42
 		String test2 = "  -42"; //-42
 		String test3 = "4193 with words"; //4193
@@ -16,6 +16,6 @@ public class _Tester {
 		String test6 = " "; // 0
 		
 		StrToIntAtoi s = new StrToIntAtoi();
-		System.out.println("Return value: " + s.myAtoi(test1));
+		System.out.println("Return value: " + s.myAtoi(test0));
 	}
 }

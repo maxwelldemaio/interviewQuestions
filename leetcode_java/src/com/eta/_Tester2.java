@@ -10,12 +10,12 @@ public class _Tester2 {
 		int res = 0, sign = 1, i = 0;
 		
 		// Go through whitespace
-		while (i < s.length() && s.charAt(i) == ' ') {
+		while (i < s.length() - 1 && s.charAt(i) == ' ') {
 			i++;
 		}
 		
 		// Check for sign (and increment to keep going)
-		if (i < s.length() && (s.charAt(i) == '-' || s.charAt(i) == '+')) {
+		if (i < s.length() - 1 && (s.charAt(i) == '-' || s.charAt(i) == '+')) {
 			if (s.charAt(i++) == '-') {
 				sign = -1;
 			}
@@ -24,7 +24,7 @@ public class _Tester2 {
         // Iterate through all digits of input
 		// Only iterate while there is valid input
 		// Make sure the res does not overflow the Integer max/min value
-		while(i < s.length() && s.charAt(i) >= '0' && s.charAt(i) <= '9') {
+		while(i < s.length() - 1 && s.charAt(i) >= '0' && s.charAt(i) <= '9') {
 			// handle int overflow
 			if (res > Integer.MAX_VALUE / 10 || (res == Integer.MAX_VALUE / 10 && s.charAt(i) - '0' > 7)) {
 				if (sign == -1) {
@@ -34,7 +34,7 @@ public class _Tester2 {
 					return Integer.MAX_VALUE;
 				}
 			}
-            res = res * 10 + Character.getNumericValue(s.charAt(i));
+            res = res * 10 + (s.charAt(i) - '0');
             i++;
 		}
 		
