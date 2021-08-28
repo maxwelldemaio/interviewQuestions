@@ -14,8 +14,8 @@ In the directory below I've placed solutions to common interview questions and c
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Python Solution](./leetcode_py/IntersectArray2.py)|/|Easy|Array, Hash Table, Two Pointers, Binary Search, and Sorting|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java Solution](./leetcode_java/src/com/eta/ReverseInteger.java), [Python Solution](./leetcode_py/TwoSum.py), and [JavaScript Solution](./leetcode_js/TwoSum.js)|[📺](https://youtu.be/F87rJe3DNkY)|Easy|Array and Hash Table|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java Solution](./leetcode_java/src/com/eta/ValidSudoku.java)|/|Medium|Array, Hash Table, and Matrix|
-|209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Java Solution](./leetcode_java/src/com/eta/MinSizeSubarraySum.java)|/|Medium|Array, Binary Sliding Window, and Prefix Sum|
 |15|[3Sum](https://leetcode.com/problems/3sum/)|[Java Solution](./leetcode_java/src/com/eta/ThreeSum.java) and [Python Solution](./leetcode_py/3sum.py)|/|Medium|Two Pointers, Sorting, and Array|
+
 
 
 ### Strings
@@ -26,7 +26,6 @@ In the directory below I've placed solutions to common interview questions and c
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java Solution](./leetcode_java/src/com/eta/ReverseString.java), [Python Solution](./leetcode_py/ReverseString.py), and [JavaScript Solution](./leetcode_js/ReverseString.js)|/|Easy|Two Pointers, String, and Recursion|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Java Solution](./leetcode_java/src/com/eta/FirstUniqueCharacter.java) and [Python Solution](./leetcode_py/FirstUniqueChar.py)|/|Easy|Hash Table, String, Queue, and Counting|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java Solution](./leetcode_java/src/com/eta/ValidPalindrome.java)|/|Easy|Two Pointers and String|
-|125|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Java Solution](./leetcode_java/src/com/eta/ValidPalindromeII.java)|/|Easy|Two Pointers, Greedy, and String|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Java Solution](./leetcode_java/src/com/eta/ToLowerCase.java)|/|Easy|String|
 
 
@@ -39,31 +38,38 @@ In the directory below I've placed solutions to common interview questions and c
 
 
 ### Trees
-
+|  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
+|-----|----------------|---------------|--------|-------------|-------------|-----------|
 
 
 ### Sorting and Searching
-
+|  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
+|-----|----------------|---------------|--------|-------------|-------------|-----------|
 
 
 ### Dynamic Programming
-
+|  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
+|-----|----------------|---------------|--------|-------------|-------------|-----------|
 
 
 ### Design
+|  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
+|-----|----------------|---------------|--------|-------------|-------------|-----------|
 
 
 ### Math
 |  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
 |-----|----------------|---------------|--------|-------------|-------------|-----------|
-|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java Solution](./leetcode_java/src/com/eta/AddTwoNumbers.java)|/|Medium|Linked List, Math, and Recursion|
-|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java Solution](./leetcode_java/src/com/eta/PalindromeNumber.java)|/|Easy|Math|
 
 
 ### Others
 |  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
 |-----|----------------|---------------|--------|-------------|-------------|-----------|
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Python Solution](./leetcode_py/HammingWeight.py)|[📺](https://www.youtube.com/watch?v=3rCu_9ItENM)|Easy|Bit Manipulation|
-|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java Solution](./leetcode_java/src/com/eta/ValidSudoku.java)|/|Medium|Array, Hash Table, and Matrix|
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python Solution](./leetcode_py/HammingDistance.py)|/|Easy|Bit Manipulation|
+|209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Java Solution](./leetcode_java/src/com/eta/MinSizeSubarraySum.java)|/|Medium|Array, Binary Sliding Window, and Prefix Sum|
+|125|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Java Solution](./leetcode_java/src/com/eta/ValidPalindromeII.java)|/|Easy|Two Pointers, Greedy, and String|
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java Solution](./leetcode_java/src/com/eta/AddTwoNumbers.java)|/|Medium|Linked List, Math, and Recursion|
+|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java Solution](./leetcode_java/src/com/eta/PalindromeNumber.java)|/|Easy|Math|
+
 
