@@ -11,9 +11,9 @@ In the directory below I've placed solutions to common interview questions and c
 |-----|----------------|---------------|--------|-------------|-------------|-----------|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java Solution](./leetcode_java/src/com/eta/RemoveAdjDupInStr.java), [Python Solution](./leetcode_py/RemoveDuplicates.py)|/|Easy|Array and Two Pointers|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[JavaScript Solution](./leetcode_js/BuySellStock2.js)|/|Easy||Check previous day if profit can be made, if so sell.|
-|189|[Rotate array](https://leetcode.com/problems/rotate-array/)|[Python Solution](./leetcode_py/RotateArray.py)|/|Easy||Update rotate num, add two parts of the array|
+|189|[Rotate array](https://leetcode.com/problems/rotate-array/)|[Python Solution](./leetcode_py/RotateArray.py)|/|Easy||Update rotate num, add two parts of the array.|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python Solution](./leetcode_py/ContainsDuplicate.py)|/|Easy|Array, Hash Table, and Sorting|
-|136|[Single Number](https://leetcode.com/problems/single-number/)|[Python Solution](./leetcode_py/SingleNum.py)|/|Easy||Bitwise XOR|
+|136|[Single Number](https://leetcode.com/problems/single-number/)|[Python Solution](./leetcode_py/SingleNum.py)|/|Easy||Bitwise XOR, every element appears twice except for one.|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Python Solution](./leetcode_py/IntersectArray2.py)|/|Easy|Array, Hash Table, Two Pointers, Binary Search, and Sorting|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java Solution](./leetcode_java/src/com/eta/ReverseInteger.java), [Python Solution](./leetcode_py/TwoSum.py), and [JavaScript Solution](./leetcode_js/TwoSum.js)|[📺](https://youtu.be/F87rJe3DNkY)|Easy|Array and Hash Table|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java Solution](./leetcode_java/src/com/eta/ValidSudoku.java)|/|Medium|Array, Hash Table, and Matrix|
