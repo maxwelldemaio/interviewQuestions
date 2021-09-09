@@ -58,17 +58,22 @@ In the directory below I've placed solutions to common interview questions and c
 ### Sorting and Searching
 |  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
 |-----|----------------|---------------|--------|-------------|-------------|-----------|
-
+| |Merge Sorted Array| |/| | | |
+| |First Bad Version| |/| | | |
 
 ### Dynamic Programming
 |  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
 |-----|----------------|---------------|--------|-------------|-------------|-----------|
-
+| |Climbing Stairs| |/| | | |
+| |Best Time to Buy and Sell Stock| |/| | | |
+| |Maximum Subarray| |/| | | |
+| |House Robber| |/| | | |
 
 ### Design
 |  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
 |-----|----------------|---------------|--------|-------------|-------------|-----------|
-
+| |Shuffle an Array| |/| | | |
+| |Min Stack| |/| | | |
 
 ### Math
 |  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
