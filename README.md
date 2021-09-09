@@ -27,11 +27,12 @@ In the directory below I've placed solutions to common interview questions and c
 ### Strings
 |  #  |      Title     |   Solutions   | Video  | Difficulty  | Tags        | Notes     |
 |-----|----------------|---------------|--------|-------------|-------------|-----------|
-|8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[Java Solution](./leetcode_java/src/com/eta/StrToIntAtoi.java)|[📺](https://www.youtube.com/watch?v=z4YsWX0hT1A)|Medium|String|Procedural approach, helper variables|
-|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Java Solution](./leetcode_java/src/com/eta/ReverseInteger.java)|/|Easy|Math|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java Solution](./leetcode_java/src/com/eta/ReverseString.java), [Python Solution](./leetcode_py/ReverseString.py), and [JavaScript Solution](./leetcode_js/ReverseString.js)|/|Easy|Two Pointers, String, and Recursion|
+|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Java Solution](./leetcode_java/src/com/eta/ReverseInteger.java)|/|Easy|Math|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Java Solution](./leetcode_java/src/com/eta/FirstUniqueCharacter.java) and [Python Solution](./leetcode_py/FirstUniqueChar.py)|/|Easy|Hash Table, String, Queue, and Counting|
+| |Valid Anagram| |/| | | |
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java Solution](./leetcode_java/src/com/eta/ValidPalindrome.java)|/|Easy|Two Pointers and String|
+|8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[Java Solution](./leetcode_java/src/com/eta/StrToIntAtoi.java)|[📺](https://www.youtube.com/watch?v=z4YsWX0hT1A)|Medium|String|Procedural approach, helper variables|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Java Solution](./leetcode_java/src/com/eta/ToLowerCase.java)|/|Easy|String|
 
 
